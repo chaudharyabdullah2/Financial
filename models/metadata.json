@@ -1,0 +1,38 @@
+{
+  "best_model": "Linear SVM (calibrated)",
+  "best_params": {
+    "model__estimator__C": 0.5
+  },
+  "selection_metric": "cv_macro_f1",
+  "cv_macro_f1": 0.7648650559332637,
+  "test_accuracy": 0.8007518796992481,
+  "test_macro_f1": 0.7649826533755076,
+  "test_weighted_f1": 0.7956928030308519,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "trained_on": "train split",
+  "train_size": 4253,
+  "test_size": 1064,
+  "data": {
+    "raw_rows": 5842,
+    "valid_rows": 5842,
+    "conflicts_resolved": 514,
+    "conflicts_dropped": 0,
+    "final_rows": 5317,
+    "class_counts": {
+      "negative": 857,
+      "neutral": 2610,
+      "positive": 1850
+    }
+  },
+  "seed": 42,
+  "cv_folds": 5,
+  "trained_at": "2026-10-12T11:51:09+00:00",
+  "versions": {
+    "python": "3.14.6",
+    "scikit-learn": "1.9.0"
+  }
+}

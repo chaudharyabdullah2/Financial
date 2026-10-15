@@ -1,0 +1,11 @@
+
+# Python / Streamlit
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Next.js generated output (frontend should be deployed separately if needed)
+web/node_modules/
+web/.next/
